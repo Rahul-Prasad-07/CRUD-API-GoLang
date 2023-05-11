@@ -21,4 +21,6 @@ type Movie struct {
 
 // movie and director are going to associated with each other : every movie has director
 type Director struct {
+	Firstname string `json:"firstname"`
+	Lastname  string `json:"lastname"`
 }
